@@ -1,0 +1,416 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+a{  
+    color: gray;
+    text-decoration: none;    
+}
+
+a:hover{
+    color: black;
+}
+h1 a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.header{
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+
+.logo{
+    display: block;
+    max-width: 50%;
+    margin-left: 0;
+    position: relative;
+    left: 0%;
+    
+   
+}
+
+
+
+
+/* 网站标题 fixed的positon就是元素会跟着滚动条一起跑*/
+h1{
+    margin: 0 auto;
+    padding: 0;
+    font-size: 2.5em;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0.1vw;
+    
+    
+
+    
+}
+
+label{
+    display: none;
+    cursor: pointer;
+}
+#toggle{
+    display: none;
+}
+label:hover{
+    color: black;
+}
+
+
+.navbar{
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    right: 0%;
+    
+    
+    
+    
+}
+
+#button{
+    padding-left: 40px;
+}
+
+.navbutton{
+    float: left;
+    padding-left: 40px;
+    text-transform: uppercase;
+    
+    
+}
+hr{
+    display: none;
+}
+ 
+
+
+
+
+
+
+
+/* 主页主要大图 */
+.bgimage{
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto; 
+    margin-right: auto;   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    
+}
+
+
+.bgimage-1{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+
+
+}
+
+    
+
+
+/* 底部区域栏和左右下脚的日期邮箱 */
+
+.bottomline{
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20vh;
+    margin-bottom: 4vw;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    
+  
+
+}
+.email{
+    width: 2em;
+}
+
+
+
+/* 网页02about开始 */
+.block-ui{
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0 5% 0 5%;
+    margin-bottom: 30px;
+    display: flex; 
+    
+    
+    
+}
+
+.description{
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+    height: auto;
+    padding:0 0px 0 2vw;
+    border: aquamarine 2px sold;
+    
+   
+
+
+}
+
+.pimage{
+    width: 30%;
+    height: 20%;
+    border-radius: 6.18%
+    
+    
+    
+}
+
+
+.block-ui3{
+    
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0 5% 0 5%;
+    margin-bottom: 30px;
+    display: flex; 
+    border: 2px black solid;
+    
+}
+
+.box{
+    width: 200px;
+    height: 20vw;
+    background-color: orange;
+    border: 2px black solid;
+    margin: 10px;
+    float: left;
+    
+
+}
+
+h2{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    
+    
+}
+
+p{
+    padding-bottom: 10px;
+    
+}
+/* 网页contact开始 */
+
+.block-ui2{
+    max-width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 0 5% 0 5%;
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+}
+
+h3{
+    color: #c3b1b0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+dt{
+    color: #a6999a;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+dd{
+    color: #916767;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    color:#916767;
+}
+
+p{
+    color: #a6999a;
+}
+
+
+
+
+
+
+
+
+
+    
+/* 网页about结束        */
+@media only screen and (max-width:768px) {
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2vw;
+    }
+
+    .logo{
+        text-align: center;
+        position: relative;
+        max-width: 75%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+    }
+
+    .navbar{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .navbutton{
+        text-align: center;
+        padding: 10px 0 10px 0;
+        transition: all 0.4s ease-out;
+        display: none; 
+        font-size: 24px;
+
+    }
+
+    #button{
+        padding:0;
+        margin-bottom: 10px;
+
+    }
+
+    label{
+        display: block;
+        font-size: 32px;
+        color: gray;
+    }
+
+    hr{
+        display: inline;
+        width: 90vw;
+    }
+
+
+
+
+    
+
+    #toggle:checked + .navbutton{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #toggle:checked  hr{
+        display: solid;
+    }
+
+
+    .pimage{
+        margin:10%;
+        margin-top: 0%;
+        
+        
+    }
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .block-ui{
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .pimage{
+        width: auto;
+        height: auto;
+    }
+    
+
+    .description{
+      padding: 0%;
+      width: 100%;
+    }
+    
+    h2{
+        padding-top: 20px;
+    }
+    
+    .block-ui2{
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+
+
+
+
+
+
+}
+
+
+
+    
