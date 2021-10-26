@@ -283,6 +283,71 @@ p{
 
 
 
+/* 2021 /10 /25 网页times 开始 新添加 */
+
+
+.fox{
+    
+    width: 100%;
+    height: auto;
+}
+.fox1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-bottom: solid 2px;
+    margin-bottom: 20px;
+
+}
+
+.fox2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 10px;
+    
+
+}
+
+
+.fox2-1{
+   
+    width: 48%;
+    max-height: auto;
+    margin: 1%;
+    display: flex;
+    border-right: solid;
+
+}
+
+.fox2-2{
+   
+    width: 48%;
+    max-height: auto;
+    display: flex;
+    margin: 1%;
+    
+}
+
+.cd{
+    max-width: 100%;
+    word-wrap:break-word; 
+}
+
+.cd{
+    display: none;
+}
+
+#read:checked + .cd{
+    display: block;
+}
+
+
+/* 2021 /10 /25 新添加 结束*/
+
+
 
 
 
