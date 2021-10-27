@@ -336,12 +336,12 @@ p{
     max-width: 100%;
     word-wrap:break-word;
     white-space:pre-wrap;
+    font-size: 1px;
+    display: none;
         
 }
 
-.cd{
-    display: none;
-}
+
 
 #read:checked + .cd{
     display: block;
