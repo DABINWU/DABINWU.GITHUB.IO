@@ -328,6 +328,7 @@ p{
 .img1{
     max-width: 200px;
     height: auto;
+    display: flex;
 }
 
 .fox2-2{
