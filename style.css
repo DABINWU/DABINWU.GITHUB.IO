@@ -328,7 +328,7 @@ p{
     width: 200px;
     height: auto;
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto;
 }
 
 .fox2-2{
