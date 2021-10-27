@@ -292,6 +292,7 @@ p{
     height: auto;
     max-width:1200px；
 }
+
 .fox1{
     text-align: center;
     color: black;
@@ -328,7 +329,7 @@ p{
     width: 200px;
     height: auto;
     max-width: 200px;
-    max-height: 100%;
+    max-height: 50px;
 }
 
 .fox2-2{
