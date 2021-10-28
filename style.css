@@ -331,6 +331,7 @@ p{
     display: flex;
     margin-left:auto;
     margin-right:auto;
+    border-radius: 4px;
 }
 
 .fox2-2{
