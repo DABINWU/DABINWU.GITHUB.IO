@@ -512,6 +512,25 @@ button:hover{
         margin-top: 100px;
     }
     
+    
+    
+    
+    
+     .fox2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fox2-1{
+        margin: 0 auto 0 auto;
+        border: none;
+    }
+
+    .fox2-2{
+        margin: 0 auto 0 auto;
+        border-bottom: dashed 1px;
+    }
+
 
 
 
