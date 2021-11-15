@@ -327,7 +327,8 @@ p{
 
 .img1{
     max-width: 177px;
-    max-height: 70px;
+    max-height: 62px;
+    width: 100%;
     height: auto;
     display: flex;
     margin-left:auto;
